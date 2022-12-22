@@ -12,7 +12,8 @@ const getUrl = (url) => {
    return `https://v6.exchangerate-api.com/v6/d839069924c95a5f9d53be62/latest/${url}`;
 }
 
-const ShowErroe = (err) => {
+const ShowError
+ = (err) => {
    const div = document.createElement('div');
    const button = document.createElement('button');
 
